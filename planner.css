@@ -1,0 +1,373 @@
+
+.logo-docplanner {
+    width: 268px;
+    height: 33px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.h1{ 
+  margin: 2px 0 0;
+    line-height: 98px;
+    display: flex; justify-content: center; flex-flow: row wrap;
+    position: relative;
+      font-size: 2.125rem;
+        color: #00b39b; 
+        font-family: Work Sans,Arial,sans-serif;
+        font-weight: 300;
+        letter-spacing: -.3px;
+        margin-left: 0%;
+        width: 100%;  height: 55px;
+  }
+  
+
+
+
+
+
+  nav{width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background: hsla(0,0%,100%,.98);
+  transition: box-shadow .25s ease 0s; 
+  display:block;
+  
+  
+  
+ 
+}
+    
+        .navbar1 { 
+          zoom: 1;
+        width:100%;
+        
+        margin-top: 0 ;
+      margin-left: 0%;
+        padding-left: 0%;
+        height: 45px;
+        display:flex; flex-flow: row wrap; justify-content: center;
+        
+        
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1500px) {
+  .h1{width: 20%;}
+  .navbar1 {
+    display: flex;
+    height:fit-content; 
+    width:20%;
+    margin-left: 0%;
+    margin-top: -3%;
+  
+  }
+  nav{ display: flex;
+    height:120px}
+    
+    
+    .sts1{ display: flex; flex-flow: row wrap;  justify-content: flex-start; width: 100%; height: 475px;  margin-top: 2%; ; border: solid;  }
+      .sts2{ display: flex; flex-flow: row wrap; width:100%; height: 475px;  border: solid;  }
+    .item{width: 1%;}
+    
+    ul{list-style: none;
+      font-size: .9375rem;
+      font-weight: 200;
+      line-height: 0;
+    
+      
+      
+  
+  }
+  
+}
+
+
+
+
+
+ ul{list-style: none;
+    font-size: .9375rem;
+    font-weight: 400;
+    line-height: 2em;
+  
+    
+    
+
+}
+
+
+
+
+
+
+
+.dropbtn {background: none;
+    color:gray;
+padding-left: 10px; 
+    font-size: 16px;
+    border: none;
+    text-decoration: none;
+    
+  }
+  
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top:7px;
+  
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background:hsla(0,0%,100%,.98);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+
+  .dropdown-content a {
+     color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+  }
+
+  
+  
+  .dropdown-content a:hover {background:none; color:rgb(0, 179, 155) ;}
+  
+  .dropdown:hover .dropdown-content {display: block; color: rgb(0, 179, 155)}
+  
+  
+  .dropdown:hover .dropbtn {background:none; color:rgb(0, 179, 155);}
+  
+
+  .navbar1 a{color: grey; }
+  .navbar1 a:hover{color:rgb(0, 179, 155) ;}
+
+
+
+
+
+
+
+  body { 
+    font-weight: 400;
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+    padding-top: 0px;
+    
+
+
+    margin: 0;
+    
+    display: block;}
+    .l{margin-top: 20%;}
+    .logo img{margin-top: 20px; display: flex; flex-flow: row wrap; justify-content: center; margin-left: 50%;
+    }
+ .logo h1{margin-top: 30px;
+color: rgb(0, 179, 155);
+text-align: center;
+display: flex; flex-flow: row wrap; justify-content: center; margin-left: 3%;
+font-family: 'Roboto', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+letter-spacing: 1px; word-spacing: 2px;
+}
+.grid{ margin-top: 50px;  display: flex; flex-flow: row wrap;  justify-content: center;  }
+.p1{
+  width: 400px;
+  margin: 20px;
+  text-align: justify;
+}
+
+
+
+.card1 img{margin-bottom: -0.4em;
+  max-width: 10%;
+  height: auto;
+  border: 0;  color:hsla(0,0%,100%,.98) ;
+margin-top: 1px; margin-left:  10px; }
+.card1{ width: 30%;
+  background: #00ccb1; border-radius: 10px;
+  padding: 2em 2em 0;
+  overflow: hidden;
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all .2s ease 0s;
+  box-shadow: inset;
+  
+}
+.ch{ display:flex; flex-flow: row wrap; justify-content: center; margin-bottom: 50%;
+}
+.card1 h2{font-size: 1.625em;
+  font-weight: 400;
+  color: #fff;
+  
+  
+}
+  .card1 h3{font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    margin: 0;
+    color: #fff;
+    
+    
+    
+}
+  .cards{margin: 3.75rem auto 2.5rem;zoom: 1;
+    max-width: 1015px;
+    padding: 0 20px;
+    position: relative;
+    margin-top: 100px;
+   display: flex; flex-flow: row wrap;
+justify-content: center; 
+overflow: hidden;}
+
+
+.style-select select{position: relative;
+  width: 100%;
+    background: transparent;
+    border: 0;
+    border-radius: 0;
+    padding: 0 2em 0 0;
+    outline: 0;
+    text-transform: none;
+    text-decoration: underline;
+    cursor: pointer;
+    color: #fff; 
+    }
+  .style-select{ display: flex; margin-top: 15%;
+    vertical-align: middle;
+    outline: 0;
+    background: none;
+    border: 0;
+    font-family: Roboto,Arial,sans-serif;
+    font-weight: 400;
+    letter-spacing: .04em;
+    font-size: 1.2rem;
+    text-align: center;} 
+    .style-select select option {
+      font-size: 1rem;
+      line-height: 1.2;
+      color: #333;}
+      #card2 {background: #3d83df; margin-left: 10px; margin-right: 10px; }
+      #card3{background: #1b2734; }
+      .p h1{width: 20%;
+      
+        color: rgb(0, 179, 155);
+         margin-left: 1%;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;
+        letter-spacing: 1px; word-spacing: 2px;
+      font-weight: 400;}
+      
+      
+      
+      
+    
+      .blogos a path {    fill:  hsla(0,0%,67%,.7);}
+      .blogos a path:hover{fill:rgb(0, 179, 155)}
+      .lg img{filter: invert(98%) contrast(0)} 
+      .lg img:hover{filter: none;}
+      
+.p{display:flex; margin-top: 2%;  width:100% ; height:300px ; padding-top: 2%;}
+.p h1{margin-left: 2%;}
+.blogos{display:flex; flex-flow:row wrap; justify-content: space-between;   margin-left: 7%;  height: 260px; width: 80%; padding:5% ; }
+ 
+.lg{margin-left: 1%;}
+
+  
+  .im{display:block;    width: 700px;;  height:250px ; margin-left: 22%; padding: 0; margin-bottom: 5%;}
+  .im h1{font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif; width:100% ; display: flex; margin-left: 20%; color:rgb(0, 179, 155) ;}
+    .h{ padding-left: 7%;}
+    .im p{ margin-top: 4%; width:90% ; padding-left: 20%;}
+    .st{margin-left: 7%; width:30% ; border: solid;}
+    
+    
+    .card-body{display:inline-flex ;padding: 0%;}
+    .card-body a{margin-left: 10%; margin-top: 6%; width: 120px; height:30px ;  padding: 0%;}
+    .card-body h5 {margin-top: 5%; font-weight: 500; font-size:large; margin-left: 0%;}
+    .cd{ display:flex;  height:50% ; width: 70%; flex-flow: row wrap; justify-content: center; padding-top: 2%; padding-bottom:2% ; margin-left: 15%; margin-bottom: 3%;}
+    .card{display: flex;  height:5% ; margin-left: 1%; margin-bottom: 2%; height:5% ;}
+    
+    
+    .join{  display: flex; flex-flow: row wrap; justify-content: center; width:100% ;  margin-bottom: 2%;  height:100px ;}
+    .join a{  display: flex;  background-color:#3d50df; margin-top: 3%;}
+    .join a:hover{background-color:#3d83df;}
+    .join header{    display: flex; flex-flow: row wrap; justify-content: center; width: 45%; height:75px ; padding-left: 0%;}
+    .join h1{font-family: 'Roboto', sans-serif;
+      font-family: 'Source Sans Pro', sans-serif; color:black; display: flex;  margin-left: 0%;}
+     
+     
+     
+      footer{ display: flex; padding-left: 20%; height:100% ; height: 190px;  }
+      .ft{ display:flex; flex-flow:row wrap ; justify-content: center;  font-weight: 100; font-size:small; width: 80%; margin-left: 0%; padding-left: 1%; padding-top: 4%;}
+      .p4{margin-top: 0%;}
+      .p3{margin-top: 0%;}
+      
+
+
+
+      
+
+
+
+
+
+
+
+      .stats{  display: flex; flex-flow: row wrap; justify-content: center;  background-color:#e5faf8;; width: 100%; margin-top: 0%;   margin-bottom: 5%;  padding-right: 0%; height:530px ; 
+      }
+      
+      .stats header{    margin-top:2%; margin-bottom: 3%;   display:flex;  flex-flow: row wrap; justify-content: center; width:500px ; height:180px ;  padding: 0.2%;  }
+      .stats  p { display: flex; width:85% ;  margin-top: 1%; font-size: small;  height:78px ;}
+      .stats  h1{  font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif;   display: flex; font-size:x-large; margin-left: 0%; color: rgb(0, 179, 155); }
+        
+        .img img{width:400px ; height:450px ; }
+        .img{ display:flex;   width:200; height:310px; overflow: hidden;   }
+      
+      .item{  display:flex; flex-flow: row wrap;  justify-content:center;   width:60% ; height:230px ; background-color: hsla(0,0%,100%,.98);  ; border-radius: 4%; padding: 2%;}
+      .sts1{ display: flex; flex-flow: row wrap; justify-content: flex-end;   width: 25%; height: 500px;  margin-top: 2%; ;   }
+      .sts2{ display: flex; flex-flow: row wrap;  width:25%; height: 500px; margin-left: 1%;  padding-top: 1%; }
+      .sts1 h3{font-size:large; font-weight: 900;    font-family: 'Roboto', sans-serif;
+        font-family: 'Source Sans Pro', sans-serif; color:rgb(0, 179, 155) ;  display:flex; flex-flow: row wrap; justify-content: center; width:100% ; height: 55px; }
+        .sts1 img{ height: 40px; display: flex;  margin-bottom: 0%;}
+        .sts1 p{font-family: 'Roboto', sans-serif;
+          font-family: 'Source Sans Pro', sans-serif; font-size: small; display: flex;   padding-top: 0%;}
+      
+          .sts2 h3{font-size:large; font-weight: 900;    font-family: 'Roboto', sans-serif;
+            font-family: 'Source Sans Pro', sans-serif; color:rgb(0, 179, 155) ;  display:flex; flex-flow: row wrap; justify-content: center; width:100% ; height: 55px; }
+            .sts2 img{ height: 40px; display: flex;  margin-bottom: 0%;}
+            .sts2 p{font-family: 'Roboto', sans-serif;
+              font-family: 'Source Sans Pro', sans-serif; display: flex; justify-content: center;  padding-top: 0%;}
+      .sts{ display: flex;  width:40% ; height: 530px;    margin-right: 0%; flex-flow: row wrap; }
